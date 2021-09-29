@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Map</title>
+    <style>
+      img {
+        border: 2px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Image Map</h1>
+    <img
+      src="https://www.cnet.com/a/img/5FL0As0Y1v9qBdgIkPsluzBmJWk=/940x0/2020/05/25/1cafea82-c57b-4113-98be-285b75da5f19/gettyimages-1047740390.jpg"
+      alt="containing different apps"
+      usemap="#map_apps"
+    />
+
+    <map name="map_apps">
+      <area
+        shape="poly"
+        coords="0,115,84,51,196,175,68,288,0,223"
+        href="https://www.twitter.com"
+        target="_blank"
+        alt="Twitter"
+      />
+
+      <area
+        shape="poly"
+        coords="167,0,394,0,278,106"
+        href="https://www.messenger.com"
+        target="_blank"
+        alt="Messenger"
+      />
+      <area
+        shape="poly"
+        coords="132,360,255,244,372,368,240,483"
+        href="https://www.google.com"
+        target="_blank"
+        alt="Google"
+      />
+      <area
+        shape="poly"
+        coords="332,170,464,55,578,182,448,295"
+        href="https://www.google.com"
+        target="_blank"
+        alt="Google+"
+      />
+
+      <area
+        shape="poly"
+        target="_blank"
+        coords="551,0,779,0,659,110"
+        href="https://www.gmail.com"
+        alt="Gmail"
+      />
+
+      <area
+        shape="poly"
+        coords="310,550,438,440,545,555,508,607,351,608"
+        href="https://www.facebook.com"
+        target="_blank"
+        alt="Facebook"
+      />
+      <area
+        shape="poly"
+        coords="512,363,637,255,751,371,626,488"
+        href="https://www.instagram.com"
+        target="_blank"
+        alt="Instagram"
+      />
+      <area
+        shape="poly"
+        coords="718,175,840,70,936,159,935,217,833,294"
+        href="https://www.snapchat.com"
+        target="_blank"
+        alt="Snapchat"
+      />
+    </map>
+  </body>
+</html>
